@@ -8,6 +8,12 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>nacos-provider</module>
+        <module>nacos-consumer</module>
+    </modules>
+
     <artifactId>nacos-discovery-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>nacos-discovery-demo</name>
@@ -16,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
     </dependencies>

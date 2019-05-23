@@ -6,7 +6,6 @@
         <groupId>com.yczuoxin</groupId>
         <artifactId>nacos</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>nacos-config-demo</artifactId>
@@ -25,9 +24,11 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>0.9.0.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
