@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.yczuoxin</groupId>
-        <artifactId>nacos-discovery-demo</artifactId>
+        <artifactId>nacos</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>nacos-consumer</artifactId>
+
+    <artifactId>nacos-gateway-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-consumer</name>
-    <description>Nacos Consumer</description>
+    <name>nacos-gateway-provider</name>
+    <description>Nacos-Gateway-Provider</description>
 
     <dependencies>
         <dependency>
@@ -24,15 +24,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 </project>
