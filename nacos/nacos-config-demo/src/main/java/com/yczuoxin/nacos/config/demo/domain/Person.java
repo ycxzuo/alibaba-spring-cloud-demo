@@ -1,11 +1,11 @@
 package com.yczuoxin.nacos.config.demo.domain;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.stereotype.Component;
 
-@ConfigurationProperties(prefix = "user")
-@RefreshScope
-public class User {
+@ConfigurationProperties(prefix = "person")
+@Component
+public class Person {
     private Long id;
     private String name;
 
