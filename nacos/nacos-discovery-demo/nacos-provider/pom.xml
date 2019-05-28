@@ -6,6 +6,7 @@
         <groupId>com.yczuoxin</groupId>
         <artifactId>nacos-discovery-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>nacos-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>

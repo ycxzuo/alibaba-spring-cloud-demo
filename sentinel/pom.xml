@@ -12,6 +12,11 @@
     <name>sentinel</name>
     <description>Sentinel-Demo</description>
 
+    <modules>
+        <module>hystrix-demo</module>
+        <module>sentinel-core-demo</module>
+    </modules>
+
     <properties>
         <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>

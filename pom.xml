@@ -10,5 +10,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>nacos</module>
+        <module>sentinel</module>
     </modules>
 </project>
