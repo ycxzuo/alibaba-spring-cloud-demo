@@ -8,4 +8,3 @@ spring:
       eager: true
       transport:
         dashboard: localhost:8080
-      datasource:
