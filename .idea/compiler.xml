@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="alibaba-spring-cloud-demo" />
-        <module name="nacos" />
+        <module name="nacos-gateway-provider" />
+        <module name="nacos-gateway-demo" />
+        <module name="hystrix-demo" />
+        <module name="ahas-demo" />
+        <module name="nacos-provider" />
+        <module name="nacos-config-demo" />
+        <module name="sentinel" />
+        <module name="nacos-discovery-demo" />
+        <module name="nacos-gateway-consumer" />
+        <module name="sentinel-core-demo" />
+        <module name="nacos-consumer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ahas-demo" options="" />
       <module name="nacos" options="-parameters" />
     </option>
   </component>
