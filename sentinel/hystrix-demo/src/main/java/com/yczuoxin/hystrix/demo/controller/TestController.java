@@ -2,7 +2,7 @@ package com.yczuoxin.hystrix.demo.controller;
 
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
-import com.yczuoxin.hystrix.demo.HystrixConfig.HystrixCommandApi;
+import com.yczuoxin.hystrix.demo.hystrixConfig.HystrixCommandApi;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
