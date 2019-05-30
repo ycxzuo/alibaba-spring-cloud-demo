@@ -1,0 +1,6 @@
+
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ›‹8—Íú“°-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(åë¹‚şÿÿÿÿ8Ø¡”°-
+squid:UselessImportCheck"QRemove this unused import 'com.alibaba.csp.sentinel.annotation.SentinelResource'.(×ÈŠòûÿÿÿÿ8ŞÍŠ”°-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ø¡”°-

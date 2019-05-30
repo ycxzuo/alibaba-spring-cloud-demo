@@ -1,0 +1,12 @@
+
+tsquid:S3457#"Q%n should be used in place of \n to produce the platform-specific line separator.(øª€úÿÿÿÿ8ÆÚÅ¯-
+osquid:S3457("Q%n should be used in place of \n to produce the platform-specific line separator.(®˜ÆÌ8×Ğ¤Å¯-
+Rsquid:EmptyStatementUsageCheck
+"Remove this empty statement.(Åñ­õşÿÿÿÿ8Ä…ëÅ¯-
+tsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(øª€úÿÿÿÿ8Ä…ëÅ¯-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(øª€úÿÿÿÿ8Ä…ëÅ¯-
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(øª€úÿÿÿÿ8‚ÄÅ¯-
+V
+squid:S106("9Replace this use of System.out or System.err by a logger.(®˜ÆÌ8×Ğ¤Å¯-

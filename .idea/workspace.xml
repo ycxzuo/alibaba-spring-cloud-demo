@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9826632-8a77-4fba-99c8-04aeb0849261" name="Default Changelist" comment="">
+    <list default="true" id="4a95a503-9ac2-4872-9ae7-d3d7e6f115f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/ahas-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ahas-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/nacos/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/target/" />
+    <ignored path="$PROJECT_DIR$/nacos/target/" />
     <ignored path="$PROJECT_DIR$/nacos/nacos-config-demo/target/" />
-    <ignored path="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/target/" />
     <ignored path="$PROJECT_DIR$/nacos/nacos-discovery-demo/target/" />
+    <ignored path="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/target/" />
+    <ignored path="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/target/" />
     <ignored path="$PROJECT_DIR$/nacos/nacos-gateway-demo/target/" />
+    <ignored path="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/target/" />
+    <ignored path="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer/target/" />
     <ignored path="$PROJECT_DIR$/sentinel/target/" />
     <ignored path="$PROJECT_DIR$/sentinel/sentinel-core-demo/target/" />
     <ignored path="$PROJECT_DIR$/sentinel/hystrix-demo/target/" />
@@ -32,20 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ahas-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="77" column="12" selection-start-line="77" selection-start-column="8" selection-end-line="81" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/SpringbootApplication.java">
+        <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/controller/APIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="357">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,65 +45,77 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="273">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidFilterConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/ahas-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1174">
-              <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+            <state relative-caret-position="609">
+              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.java">
+        <entry file="file://$PROJECT_DIR$/sentinel/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="575">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/config/PrimaryDatabaseConfig.java">
+        <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/SpringbootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1430">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/config/SentinelAspectConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="105">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.java">
+        <entry file="file://$PROJECT_DIR$/nacos/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="49" />
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dataSource</find>
+      <find>management.endpoints.web.exposure.include</find>
+      <find>12</find>
+      <find>Initializing</find>
+      <find>xxjob</find>
+      <find>Blocked by Sentine</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,12 +124,53 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/NacosConfigDemoApplication.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/resources/bootstrap.yaml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/NacosConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/config/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/config/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/config/EchoServiceFallback.java" />
         <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/src/main/java/com/yczuoxin/nacos/provider/NacosProviderApplication.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/src/main/java/com/yczuoxin/nacos/provider/controller/EchoController.java" />
+        <option value="$PROJECT_DIR$/nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer/src/main/java/com/yczuoxin/nacos/gateway/consumer/NacosGatewayConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/src/main/java/com/yczuoxin/nacos/gateway/provider/NacosGatewayProviderApplication.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/src/main/java/com/yczuoxin/nacos/gateway/provider/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/service/EchoService.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/domain/User.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/domain/LoginUser.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/domain/Person.java" />
         <option value="$PROJECT_DIR$/sentinel/pom.xml" />
-        <option value="$PROJECT_DIR$/ahas-demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/SpringbootApplication.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/config/ChangeRunner.java" />
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/controller/ConfigController.java" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/HystrixConfig/CommandHelloFailure.java" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/HystrixConfig/HystrixCommandApi.java" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/HystrixDemoApplication.java" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/SentinelCoreDemoApplication.java" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/controller/APIController.java" />
         <option value="$PROJECT_DIR$/ahas-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -133,8 +178,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\repo" />
-        <option name="mavenHome" value="D:/developtools/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="D:\developtools\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -152,17 +197,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,88 +215,12 @@
               <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-config-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,19 +228,24 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mygit\alibaba-spring-cloud-demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootApplication">
+  <component name="RunManager" selected="Spring Boot.SentinelCoreDemoApplication">
     <configuration name="HystrixDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrix-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yczuoxin.hystrix.demo.HystrixDemoApplication" />
@@ -293,15 +267,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="nacos" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yczuoxin.nacos.NacosApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosConfigDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="NacosConfigDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nacos-config-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yczuoxin.nacos.config.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yczuoxin.nacos.config.demo.NacosConfigDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,6 +308,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yczuoxin.sentinel.SentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SentinelCoreDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sentinel-core-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yczuoxin.sentinel.core.demo.SentinelCoreDemoApplication" />
@@ -349,246 +329,608 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.NacosConsumerApplication" />
+      <item itemvalue="Spring Boot.NacosGatewayConsumerApplication" />
+      <item itemvalue="Spring Boot.NacosGatewayProviderApplication" />
+      <item itemvalue="Spring Boot.NacosProviderApplication" />
+      <item itemvalue="Spring Boot.SentinelApplication" />
+      <item itemvalue="Spring Boot.SentinelCoreDemoApplication" />
+      <item itemvalue="Spring Boot.HystrixDemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootApplication" />
+      <item itemvalue="Spring Boot.NacosConfigDemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NacosConfigDemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9826632-8a77-4fba-99c8-04aeb0849261" name="Default Changelist" comment="" />
-      <created>1558790319329</created>
+      <changelist id="4a95a503-9ac2-4872-9ae7-d3d7e6f115f3" name="Default Changelist" comment="" />
+      <created>1558170295624</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558790319329</updated>
-      <workItem from="1558790320528" duration="1510000" />
-      <workItem from="1558799859716" duration="1197000" />
-      <workItem from="1559045371305" duration="2466000" />
-      <workItem from="1559130381752" duration="7125000" />
+      <updated>1558170295624</updated>
+      <workItem from="1558170296894" duration="30940000" />
+      <workItem from="1558600486084" duration="23991000" />
+      <workItem from="1558920388584" duration="32721000" />
+      <workItem from="1559108895049" duration="8282000" />
+      <workItem from="1559196287417" duration="294000" />
     </task>
-    <task id="LOCAL-00001" summary="修改了pom文件">
-      <created>1559047553982</created>
+    <task id="LOCAL-00001" summary="Nacos项目搭建">
+      <created>1558174710418</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1559047553982</updated>
+      <updated>1558174710418</updated>
     </task>
-    <task id="LOCAL-00002" summary="commit for ahas demo">
-      <created>1559136302156</created>
+    <task id="LOCAL-00002" summary="Nacos项目搭建">
+      <created>1558514351318</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1559136302156</updated>
+      <updated>1558514351318</updated>
     </task>
-    <task id="LOCAL-00003" summary="移除循环依赖的包">
-      <created>1559137830454</created>
+    <task id="LOCAL-00003" summary="Nacos服务发现搭建">
+      <created>1558602207800</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1559137830454</updated>
+      <updated>1558602207800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Nacos服务发现搭建">
+      <created>1558604522394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558604522394</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nacos对gateway的支持">
+      <created>1558682646772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558682646772</updated>
+    </task>
+    <task id="LOCAL-00006" summary="对于对象属性的变更">
+      <created>1558939191590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558939191591</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hystrix 代码实现">
+      <created>1558952160695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558952160695</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Sentinel 代码实现">
+      <created>1559038770192</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559038770192</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Sentinel API 代码实现">
+      <created>1559187320859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559187320859</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12298000" />
+    <option name="totallyTimeSpent" value="96228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25279906" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Alibaba Cloud Explorer" order="8" />
-      <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.22547974" />
+      <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.29637527" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32942098" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.4454343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="11" weight="0.32942098" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32942098" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" weight="0.32942098" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32962137" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.4454343" />
+      <window_info anchor="bottom" id="SonarLint" order="13" sideWeight="0.4989339" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="bottom" id="Version Control" order="18" weight="0.32962137" />
+      <window_info anchor="bottom" id="JRebel Executor" order="19" />
+      <window_info anchor="bottom" id="JRebel Console" order="20" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="21" weight="0.32962137" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="22" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="23" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3299941" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改了pom文件" />
-    <MESSAGE value="commit for ahas demo" />
-    <MESSAGE value="移除循环依赖的包" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除循环依赖的包" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Nacos项目搭建" />
+    <MESSAGE value="Nacos服务发现搭建" />
+    <MESSAGE value="nacos对gateway的支持" />
+    <MESSAGE value="对于对象属性的变更" />
+    <MESSAGE value="Hystrix 代码实现" />
+    <MESSAGE value="Sentinel 代码实现" />
+    <MESSAGE value="Sentinel API 代码实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sentinel API 代码实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/src/main/java/com/yczuoxin/nacos/gateway/provider/NacosGatewayProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/src/main/java/com/yczuoxin/nacos/gateway/provider/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="62" />
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel/pom.xml">
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/service/EchoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/model/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.9/druid-spring-boot-starter-1.1.9-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidFilterConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9-sources.jar!/com/alibaba/druid/filter/stat/StatFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/csp/spring-cloud-zuul-starter-ahas-sentinel/1.0.1/spring-cloud-zuul-starter-ahas-sentinel-1.0.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1846">
-          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/config/BackDatabaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/config/SentinelAspectConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidFilterConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1174">
-          <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/config/PrimaryDatabaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1430">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/SpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.java">
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/src/main/java/com/yczuoxin/nacos/consumer/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="-148">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/src/main/java/com/yczuoxin/nacos/provider/controller/EchoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="19" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/NacosConfigDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="70" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE-sources.jar!/org/springframework/boot/ApplicationRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.9.0.RELEASE/spring-cloud-alibaba-nacos-config-0.9.0.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.9.0.RELEASE/spring-cloud-alibaba-nacos-config-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.0.0/nacos-client-1.0.0-sources.jar!/com/alibaba/nacos/client/config/impl/CacheData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/SentinelProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+          <folding>
+            <element signature="e#3685#3686#0" expanded="true" />
+            <element signature="e#3720#3721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/config/ChangeRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/nacos-config-demo/src/main/java/com/yczuoxin/nacos/config/demo/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/hystrix-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/hystrix-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/HystrixConfig/HystrixCommandApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/HystrixDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/hystrix-demo/src/main/java/com/yczuoxin/hystrix/demo/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/SentinelCoreDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-annotation-aspectj/1.5.2/sentinel-annotation-aspectj-1.5.2-sources.jar!/com/alibaba/csp/sentinel/annotation/aspectj/SentinelResourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/SphO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/controller/AnnotationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/SphU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/Env.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/Sph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="118" column="33" lean-forward="true" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/context/NullContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/EntryType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/StringResourceWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/node/EntranceNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding>
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/context/ContextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/ahas-demo/src/main/java/com/yczuoxin/springboot/SpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/controller/APIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ahas-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="8" selection-end-line="81" selection-end-column="24" />
+        <state relative-caret-position="609">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (nacos-config-demo)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -602,7 +944,19 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>alibaba-spring-cloud-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -626,6 +980,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

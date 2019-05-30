@@ -1,0 +1,12 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(øª€žúÿÿÿÿ8ßÎáá¯-
+Asquid:S1148#"#Use a logger to log this exception.(Ç’Çê8®å™â¯-
+osquid:S3457$"Q%n should be used in place of \n to produce the platform-specific line separator.(“Ýãá8ø¥šâ¯-
+V
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ë³‰ä8¬Šçá¯-
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(“Ýãá8ø¥šâ¯-
+tsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(øª€žúÿÿÿÿ8³¶åá¯-
+Šsquid:UselessImportCheck"ZRemove this unused import 'com.alibaba.csp.sentinel.slots.block.degrade.DegradeException'.(™š…ƒÿÿÿÿÿ8çØ·“°-
+osquid:S3457)"Q%n should be used in place of \n to produce the platform-specific line separator.(ë³‰ä8ÿ÷çá¯-

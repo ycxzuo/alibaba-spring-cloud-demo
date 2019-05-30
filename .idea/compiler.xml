@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-gateway-provider" />
-        <module name="nacos-gateway-demo" />
+        <module name="nacos-consumer" />
         <module name="hystrix-demo" />
         <module name="ahas-demo" />
         <module name="nacos-provider" />
@@ -16,9 +16,24 @@
         <module name="nacos-discovery-demo" />
         <module name="nacos-gateway-consumer" />
         <module name="sentinel-core-demo" />
-        <module name="nacos-consumer" />
+        <module name="nacos-gateway-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ahas-demo" target="1.8" />
+      <module name="alibaba-spring-cloud-demo" target="1.5" />
+      <module name="hystrix-demo" target="1.8" />
+      <module name="nacos" target="1.8" />
+      <module name="nacos-config-demo" target="1.8" />
+      <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-discovery-demo" target="1.8" />
+      <module name="nacos-gateway-consumer" target="1.8" />
+      <module name="nacos-gateway-demo" target="1.8" />
+      <module name="nacos-gateway-provider" target="1.8" />
+      <module name="nacos-provider" target="1.8" />
+      <module name="sentinel" target="1.8" />
+      <module name="sentinel-core-demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

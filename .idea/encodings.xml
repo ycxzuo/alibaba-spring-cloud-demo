@@ -3,5 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ahas-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-config-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-discovery-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-gateway-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel/hystrix-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel/sentinel-core-demo" charset="UTF-8" />
   </component>
 </project>

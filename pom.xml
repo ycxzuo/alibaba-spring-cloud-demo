@@ -11,5 +11,6 @@
     <modules>
         <module>nacos</module>
         <module>sentinel</module>
+        <module>ahas-demo</module>
     </modules>
 </project>

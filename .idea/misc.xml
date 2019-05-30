@@ -6,7 +6,20 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/ahas-demo/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/nacos/nacos-config-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/nacos-gateway-demo/nacos-gateway-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/hystrix-demo/pom.xml" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -114,7 +127,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="12" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
