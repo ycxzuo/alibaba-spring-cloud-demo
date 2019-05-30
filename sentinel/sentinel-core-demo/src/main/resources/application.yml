@@ -1,5 +1,5 @@
 server:
-  port: 18086
+  port: 18089
 spring:
   application:
     name: sentinel-example
@@ -8,3 +8,7 @@ spring:
       eager: true
       transport:
         dashboard: localhost:8080
+nacos:
+  serverAddr: 127.0.0.1:8848
+  dataId: sentinel-nacos-demo.yaml
+  group: DEFAULT_GROUP

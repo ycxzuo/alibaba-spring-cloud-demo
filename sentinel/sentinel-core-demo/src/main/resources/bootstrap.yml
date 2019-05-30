@@ -5,6 +5,4 @@ spring:
         file-extension: yaml
         server-addr: 127.0.0.1:8848
   application:
-    name: nacos-config-example
-server:
-  port: 8081
+    name: sentinel-nacos-demo

@@ -1,4 +1,4 @@
-package com.yczuoxin.sentinel.core.demo.config;
+package com.yczuoxin.sentinel.core.demo.init;
 
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
