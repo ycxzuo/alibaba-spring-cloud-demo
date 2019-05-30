@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class APIController {
 
     @GetMapping("/api-hello")
-    public String ApiHello(){
+    public String apiHello(){
         try(Entry entry = SphU.entry("api")){
             return "API Hello";
         }catch (BlockException e){
@@ -19,5 +19,17 @@ public class APIController {
             System.out.println("exception");
             return "API Exception";
         }
+    }
+
+    @GetMapping("/hard-hello")
+    @SentinelResource("hardOne")
+    public String hardCodingHello(){
+        return "hardOne";
+    }
+
+    @GetMapping("/hard-hello2")
+    @SentinelResource("hardTwo")
+    public String hardCodingHello2(){
+        return "hardTwo";
     }
 }
