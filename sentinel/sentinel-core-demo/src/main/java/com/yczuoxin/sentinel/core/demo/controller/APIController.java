@@ -32,4 +32,10 @@ public class APIController {
     public String hardCodingHello2(){
         return "hardTwo";
     }
+
+    @GetMapping("/hard-hello3")
+    @SentinelResource("hardThree")
+    public String hardCodingHello3(){
+        return "hardThree";
+    }
 }

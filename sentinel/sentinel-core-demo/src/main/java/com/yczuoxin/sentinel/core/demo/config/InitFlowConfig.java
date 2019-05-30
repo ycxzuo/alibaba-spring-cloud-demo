@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 初始化规则
+ * 初始化流控规则
  */
 @Configuration
 public class InitFlowConfig {
