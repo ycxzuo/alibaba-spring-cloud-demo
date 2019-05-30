@@ -1,4 +1,4 @@
-package com.yczuoxin.hystrix.demo.hystrixConfig;
+package com.yczuoxin.hystrix.demo.hystrixconfig;
 
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
