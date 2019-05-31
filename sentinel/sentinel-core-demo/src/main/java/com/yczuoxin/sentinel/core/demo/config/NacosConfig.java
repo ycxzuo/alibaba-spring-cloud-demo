@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "nacos")
 public class NacosConfig {
     private String serverAddr;
-    private String dataId;
+    private String flowdataId;
+    private String degradedataId;
     private String group;
 
     public String getServerAddr() {
@@ -18,12 +19,20 @@ public class NacosConfig {
         this.serverAddr = serverAddr;
     }
 
-    public String getDataId() {
-        return dataId;
+    public String getFlowdataId() {
+        return flowdataId;
     }
 
-    public void setDataId(String dataId) {
-        this.dataId = dataId;
+    public void setFlowdataId(String flowdataId) {
+        this.flowdataId = flowdataId;
+    }
+
+    public String getDegradedataId() {
+        return degradedataId;
+    }
+
+    public void setDegradedataId(String degradedataId) {
+        this.degradedataId = degradedataId;
     }
 
     public String getGroup() {

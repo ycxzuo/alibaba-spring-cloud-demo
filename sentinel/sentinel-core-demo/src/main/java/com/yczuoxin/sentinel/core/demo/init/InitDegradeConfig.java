@@ -5,7 +5,6 @@ import com.alibaba.csp.sentinel.slots.block.degrade.DegradeRule;
 import com.alibaba.csp.sentinel.slots.block.degrade.DegradeRuleManager;
 import org.springframework.context.annotation.Configuration;
 
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,23 @@ import java.util.List;
 @Configuration
 public class InitDegradeConfig {
 
-    @PostConstruct
+    /**
+     * 已经被 nacos 的 listener 取代初始化
+     *
+     * sentinel-nacos-degrade.yaml
+     * DEFAULT_GROUP
+     * [
+     *   {
+     *     "resource": "hardThree",
+     *     "count": 10,
+     *     "timeWindow": 10,
+     *     "grade": 0,
+     *     "limitApp": "default",
+     *     "strategy": 0
+     *   }
+     * ]
+     */
+    //@PostConstruct
     private void initDegradeRule() {
     List<DegradeRule> rules = new ArrayList<>();
     DegradeRule rule = new DegradeRule();

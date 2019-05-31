@@ -5,7 +5,6 @@ import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import org.springframework.context.annotation.Configuration;
 
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,39 @@ import java.util.List;
 @Configuration
 public class InitFlowConfig {
 
-    @PostConstruct
+    /**
+     * 已经被 nacos 的 listener 取代初始化
+     *
+     * sentinel-nacos-flow.yaml
+     * DEFAULT_GROUP
+     * [
+     *   {
+     *     "resource": "hello",
+     *     "controlBehavior": 0,
+     *     "count": 3.0,
+     *     "grade": 1,
+     *     "limitApp": "default",
+     *     "strategy": 0
+     *   },
+     *   {
+     *     "resource": "hardOne",
+     *     "controlBehavior": 0,
+     *     "count": 4.0,
+     *     "grade": 1,
+     *     "limitApp": "default",
+     *     "strategy": 0
+     *   },
+     *   {
+     *     "resource": "hardTwo",
+     *     "controlBehavior": 0,
+     *     "count": 5.0,
+     *     "grade": 1,
+     *     "limitApp": "default",
+     *     "strategy": 0
+     *   }
+     * ]
+     */
+    //@PostConstruct
     public void initFlowQpsRule(){
         List<FlowRule> rules = new ArrayList<>();
         FlowRule rule = new FlowRule("hardOne");

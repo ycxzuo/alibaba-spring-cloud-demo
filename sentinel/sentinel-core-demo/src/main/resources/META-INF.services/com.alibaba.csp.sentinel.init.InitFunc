@@ -1,1 +1,2 @@
-com.yczuoxin.sentinel.core.demo.init.ConfigNacosFunction
+com.yczuoxin.sentinel.core.demo.init.ConfigNacosFlowFunction
+com.yczuoxin.sentinel.core.demo.init.ConfigNacosDegradeFunction

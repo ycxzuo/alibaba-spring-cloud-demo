@@ -10,5 +10,6 @@ spring:
         dashboard: localhost:8080
 nacos:
   serverAddr: 127.0.0.1:8848
-  dataId: sentinel-nacos-demo.yaml
+  flowdataId: sentinel-nacos-flow.yaml
   group: DEFAULT_GROUP
+  degradedataId: sentinel-nacos-degrade.yaml

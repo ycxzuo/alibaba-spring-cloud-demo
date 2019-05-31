@@ -1,8 +1,8 @@
 package com.yczuoxin.sentinel.core.demo.listener;
 
-import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import com.alibaba.nacos.api.config.listener.Listener;
-import com.yczuoxin.sentinel.core.demo.init.InitNacosConfig;
+import com.yczuoxin.sentinel.core.demo.init.InitNacosDegradeConfig;
+import com.yczuoxin.sentinel.core.demo.init.InitNacosFlowConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -21,11 +21,14 @@ public class NacosChangeListener implements ApplicationRunner {
 	private NacosConfigProperties nacosConfigProperties;
 
     @Autowired
-    InitNacosConfig config;
+    InitNacosFlowConfig flowConfig;
+
+    @Autowired
+    InitNacosDegradeConfig degradeConfig;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        nacosConfigProperties.configServiceInstance().addListener("sentinel-nacos-demo.yaml",
+        nacosConfigProperties.configServiceInstance().addListener("sentinel-nacos-flow.yaml",
                 "DEFAULT_GROUP",
                 new Listener() {
                     @Override
@@ -43,7 +46,31 @@ public class NacosChangeListener implements ApplicationRunner {
 						}
 						System.out.println("config changed: " + properties);
                         try {
-                            config.init();
+                            flowConfig.init();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+        nacosConfigProperties.configServiceInstance().addListener("sentinel-nacos-degrade.yaml",
+                "DEFAULT_GROUP",
+                new Listener() {
+                    @Override
+                    public Executor getExecutor() {
+                        return null;
+                    }
+                    @Override
+                    public void receiveConfigInfo(String configInfo) {
+                        Properties properties = new Properties();
+						try {
+							properties.load(new StringReader(configInfo));
+						}
+						catch (IOException e) {
+							e.printStackTrace();
+						}
+						System.out.println("config changed: " + properties);
+                        try {
+                            degradeConfig.init();
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
