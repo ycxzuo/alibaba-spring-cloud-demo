@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
-<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/ahas-demo/pom.xml" />
-=======
         <option value="$PROJECT_DIR$/nacos/nacos-config-demo/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/nacos-discovery-demo/nacos-provider/pom.xml" />
@@ -19,7 +20,6 @@
         <option value="$PROJECT_DIR$/sentinel/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel/sentinel-core-demo/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel/hystrix-demo/pom.xml" />
->>>>>>> Stashed changes
       </list>
     </option>
   </component>
