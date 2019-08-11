@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-gateway-provider" />
-        <module name="nacos-gateway-demo" />
+        <module name="nacos-consumer" />
         <module name="hystrix-demo" />
         <module name="ahas-demo" />
         <module name="nacos-provider" />
@@ -16,7 +16,7 @@
         <module name="nacos-discovery-demo" />
         <module name="nacos-gateway-consumer" />
         <module name="sentinel-core-demo" />
-        <module name="nacos-consumer" />
+        <module name="nacos-gateway-demo" />
       </profile>
     </annotationProcessing>
   </component>

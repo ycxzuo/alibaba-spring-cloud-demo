@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a95a503-9ac2-4872-9ae7-d3d7e6f115f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="4a95a503-9ac2-4872-9ae7-d3d7e6f115f3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/nacos/target/" />
@@ -237,38 +235,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ahas-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba-spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba-spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +248,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sentinel/sentinel-core-demo/src/main/java/com/yczuoxin/sentinel/core/demo/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -455,6 +424,7 @@
       <workItem from="1560089033444" duration="793000" />
       <workItem from="1560131670497" duration="21000" />
       <workItem from="1560780156659" duration="662000" />
+      <workItem from="1561176111828" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="Nacos项目搭建">
       <created>1558174710418</created>
@@ -572,12 +542,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134557000" />
+    <option name="totallyTimeSpent" value="135195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.15871614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.15959953" />
       <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.29637527" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -611,7 +581,6 @@
       <window_info anchor="bottom" id="Messages" order="21" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="22" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="23" />
-      <window_info anchor="right" id="JRebel Setup Guide" visible="true" weight="0.32979977" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -623,6 +592,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" visible="true" weight="0.32979977" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
